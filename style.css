@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -78,6 +75,7 @@ header .nav-link:hover, header .nav-link.active{
     background: url("./image/hero-bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    position: relative;
 }
 
 #hero .htop{
@@ -117,4 +115,49 @@ header .nav-link:hover, header .nav-link.active{
     width: 60%;
 }
 
+#hero .mvin{
+    position: absolute;
+    font-size: 20px;
+}
+
+
+
+
+#hero .in1{
+    left: 550px;
+    bottom: 10px;
+    color: #6883de;
+}
+
+#hero .in2{
+    left: 350px;
+    top: 5px;
+    color: #d6cffe;
+    transform: rotate(40deg);
+}
+#hero .in3{
+    left: 650px;
+    bottom: 100px;
+    color: #d6cffe;
+}
+#hero .in4{
+    left: 80px;
+    top: 0px;
+    color: #d6cffe;  
+}
+#hero .in5{
+    left: 850px;
+    top: -10px;
+    color: #fa876c;
+}
+#hero .in6{
+    left: 200px;
+    bottom: 20px;
+    color: #fa876c;
+}
+#hero .in7{
+   right: 60px;
+    bottom: 18px;
+    color: #fa876c;
+}
 
